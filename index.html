@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shayma</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: url("image/40.png");
+        }
+
+        header{
+        padding: 10px;
+        text-align: center;
+        }
+
+        main{
+        text-align: center;
+        padding: 40px;
+        color: rgb(55, 46, 46);
+        }
+
+        .container{
+        width: 85%;
+        margin: auto;
+        padding: 50px;
+        text-align: center;
+        }
+
+        label{
+        display: block;
+        margin: 0;
+        color: white;
+        }
+
+        input, textarea{
+        width: 70%;
+        padding: 10px;
+        box-sizing: border-box;
+        }
+
+        input[type="submit"]{
+        background-color:pink;
+        color: #333;
+        border: none;
+        cursor: pointer;
+        }
+
+        footer{
+        color: rgb(61, 14, 14);
+        text-align: center;
+        padding: 20px;
+        }
+ 
+        .contact-info{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        }
+
+        .contact-info li{
+        margin: 0 15px;
+        }
+
+        .copyright{
+        margin;0;
+        }
+
+        
+    </style>
+    <title>Shayma</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <table border="0" width="100%" cellspacing="10" align="center" >
+            <tr>
+
+               <td><font face="black ops one" size="12" color="purple"><b>Shayma</b></font></td>
+               <td width="40%"></td>
+               <td><a herf="#"><font color="#673de6" size="5"><i><b>Home</b></i></font></a></td>
+               <td><a herf="#"><font color="#673de6" size="5"><i><b>About</b></i></font></a></td>
+               <td><a herf="#"><font color="#673de6" size="5"><i><b>Services</b></i></font></a></td>
+               <td><a herf="#"><font color="#673de6" size="5"><i><b>Contact</b></i></font></a></td>
+
+            </tr>
+        </table>
+    </header>
+
+    <!--End Header-->
+
+    <!--Home/About-->
+    <main>
+        <table border="0" width="85%" align="center" cellpadding="15px" cellspacing="0px">
+            <tr>
+                <td>
+                    <font face="agbalumo regular" size="6" color="black"><h1><b>I'm Shayma</b></font><br>
+                    <font face="agbalumo regular" size="5" color="black"><i>I'm a junior software developer, and i love sharing what i've learned.</i></font></h1>
+                    <hr color="pink">
+                    <a href="image/CV.pdf"><button>Download CV</button></a>
+                    <a href="https://wa.link/rc4673"><button>Hire ME</button></a>
+                </td>
+                <td>
+                    <audio controls>
+                        <source src="image/dvp web.wav" type="audio/mp3">
+                        please check the audio extension
+                    </audio>
+                </td>
+                <td><img src="image/45.png" width="300" height="300" alt="Bahri Shayma"></td>  
+            </tr>
+        </table>
+        <table border="0" width="50%" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td><iframe width="500" height="281" src="https://www.youtube.com/embed/0lbzmZeS-BY?si=_bEy53XhtTjT6geG"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <!--End Home/About-->
+
+    <!--Services-->
+
+    <div class="container">
+        <table border="0" align="center" cellpadding="15px">
+            <tr align="center">
+                <td colspan="3">
+                    <font size="8" face="open sans" color="pink"><b>Services</font><br>
+                    <font size="4" face="open sans" color="#673de6"><i>These are my services</i></font><br>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <font size="5">App Development</font><br>
+                </td>
+                <td>
+                    <font size="5">Web Development</font><br>
+                </td>
+                <td>
+                    <font size="5">Digital Marketing</font><br>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!--End Services-->
+
+    <!--Contact-->
+
+    <div class="container">
+        <table border="0" align="center" cellpadding="15px>
+            <tr align="center">
+                <td colspan="3">
+                    <font size="8" face="open sans" color="pink"><b>Contact</b></font>
+                </td>
+            </tr>
+        </table>
+
+        <form action="#" method="post">
+            <table border="0" align="center" cellpadding="5px">
+                <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mobile">Mobile:</label>
+                        <input type="tel" id="mobile" name="mobile" required><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="message">Message:</label>
+                        <textarea type="message" id="message" rows="4" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit" id="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <!--End Contact-->
+
+    <!--Footer-->
+    <footer>
+        <ul class="contact-info">
+            <li><i class="fas fa-map-marker-alt"></i> TUNISIA</li>
+            <li><i class="fas fa-envelope"></i> Bahrishayma4@email.com</li>
+            <li><i class="fas fa-phone"></i> +21627047998</li>
+        </ul>
+        <ul class="social-icons">
+            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <p class="copyright">&copy; 2023. All rights reserved.</p>
+    </footer>
+
+    <!--End Footer-->
+
+
+
+</body>
+</html>
